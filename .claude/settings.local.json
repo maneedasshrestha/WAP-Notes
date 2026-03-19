@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc --version)",
+      "Bash(npm list:*)",
+      "Bash(wkhtmltopdf --version)",
+      "Bash(python -c \"import markdown; import weasyprint\")",
+      "Bash(python -c 'import markdown')",
+      "Bash(python -c 'import weasyprint')",
+      "Bash(python -c 'import fpdf')",
+      "Bash(python -c 'import reportlab')",
+      "Bash(pip list:*)",
+      "Bash(npx --yes md-to-pdf \"Chapter 3 - Server-Side Web Programming.md\" --dest PDFs/)",
+      "Bash(npx md-to-pdf:*)",
+      "Bash(for f:*)",
+      "Bash(do)",
+      "Bash(echo \"Converting: $f\")",
+      "Bash(done)"
+    ]
+  }
+}
